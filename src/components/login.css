@@ -1,0 +1,38 @@
+
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.alert-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    animation: slideIn 0.5s ease-out;
+}
+
+.outercontainer {
+    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1.5)),url('https://wallpaperswide.com/download/retro_camera-wallpaper-1280x800.jpg') !important;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    background-size: 100% auto;
+    background-position: center center;
+}
+.signupouter {
+    background-image: url('https://th.bing.com/th/id/R.6d09026f66fc9acfd1722de0ef6d0be6?rik=OR4a%2b9TcQm18CA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f8%2f6%2f583883.jpg&ehk=5RSM%2fuBHCqZ3BNx9cBWj5%2b%2bLD5qPQuilV8BcfikFIcU%3d&risl=&pid=ImgRaw&r=0') !important;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    background-size: 100% auto;
+    background-position: center center;
+}

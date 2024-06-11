@@ -1,0 +1,127 @@
+
+
+
+.container-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    //margin: auto;
+    //border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+  
+
+    
+}
+
+.container-image {
+    width: 50%;
+    margin: 20px;
+    
+    //flex-direction: column;
+}
+
+.container-details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px; /* Add margin to separate from the sides */
+    height: 100%;
+}
+
+
+.title {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Serif;
+}
+
+.Brand {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Brand-Brandname {
+    font-weight:normal;
+}
+.Category {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Serif;
+
+}
+.price {
+    font-weight: bold;
+    color:saddlebrown;
+    font-size:35px;
+}
+.description {
+    
+    color: dimgrey;
+    font-size: 12px;
+}
+
+.review {
+    font-family: Palatino;
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: auto;
+}
+.size {
+    font-size: 16px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    margin-top: auto;
+}
+.plusMinuceButton {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    margin: 5px;
+    border: 1px solid lightgrey;
+    color:dimgrey;
+}
+
+
+
+.buttonbox {
+    //background-color: red;
+    
+    margin-top: auto;
+}
+
+.cart {
+    font-weight:bold;
+    background-color: saddlebrown;
+    border: none;
+    color:antiquewhite;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin:10px;
+    //justify-items:center;
+}
+.wishlist {
+    font-weight: bold;
+    background-color: darkred;
+    border: none;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 32px;
+    margin: 10px;
+}
+
